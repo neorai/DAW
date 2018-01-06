@@ -1,0 +1,47 @@
+En esta unidad has visto las características fundamentales de la programación orientada a objetos y estudiado los conceptos más importantes de este modelo de programación. Has aprendido a crear y manipular objetos, qué son los métodos y cómo se definen los parámetros. También has podido conocer cómo se estructura la Biblioteca de Clases de Java, viendo algunas clases importantes, como por ejemplo las que nos permiten realizar la programación de la consola.
+
+Para poder realizar la tarea de esta unidad vas a crear dos clases con una estructura básica. Las tareas a realizar se centrarán en la creación de instancias de esas clases, la creación y utilización de unos métodos básicos, y el trabajo con constructores y parámetros.
+
+    Construye un proyecto en Java que utilice la clase Alumno que se define a continuación:
+
+    public class Alumno{
+         private String nombre;
+         private int edad;
+         private float nota;
+
+         public String consulta_Nombre(){
+              return nombre;
+         }
+
+         public void cambia_Nombre(String nom){
+              nombre=nom;
+         }
+    }
+
+    La clase debe incluir un método principal que solicite un valor al usuario y lo introduzca en el atributo nombre, para posteriormente mostrar por pantalla el nuevo valor del atributo.
+    Añade a la clase Alumno los métodos que faltan para poder consultar y modificar el valor de todos los atributos. Para ello observa cómo se han creado los métodos del atributo nombre y determina los parámetros y resultado de los demás atributos. Después completa el programa para comprobar el funcionamiento de los nuevos métodos.
+    De la misma forma que has creado los métodos anteriores, crea ahora un método constructor para la clase Alumno que al declarar un objeto de tipo Alumno asigne los siguientes valores a sus atributos:
+
+    nombre="María Lopez"
+
+    edad=26
+
+    nota=8,70
+
+    A continuación crea un proyecto que declare un objeto de tipo Alumno utilizando el constructor, para posteriormente mostrar el contenido de sus atributos por pantalla.
+    Crea un constructor con parámetros para la clase Alumno que inicialice los atributos del objeto con los valores indicados en los parámetros. A continuación crea un proyecto que declare un objeto de tipo Alumno utilizando el constructor, para posteriormente mostrar el contenido de los atributos por pantalla. Utiliza el operador this.
+    Construye una clase Complejo con dos atributos:
+        real: parte real del número complejo
+        imag: parte imaginaria del número complejo
+
+    Puedes consultar la estructura de una clase en el apartado correspondiente de la unidad, o bien partir de la definición de la clase Alumno del apartado anterior. A continuación crea los siguientes métodos dentro de la clase:
+        public Complejo(): Constructor que inicializa los atributos a cero.
+        public Complejo(double real, double imag): Constructor que inicializa los atributos a los valores indicados por los parámetros.
+        public double consulta_Real(): Devuelve la parte real del objeto.
+        public double consulta_Imag(): Devuelve la parte imaginaria del objeto.
+        public void cambia_Real(double real): Asigna a la parte real del objeto el valor indicado en el parámetro real.
+        public void cambia_Imag(double imag): Asigna a la parte imaginaria del objeto el valor indicado en el parámetro imag.
+        public String toString(): Convierte a String el número complejo, mediante la concatenación de sus atributos y devuelve como resultado la cadena de texto 3 + 4i, si 3 es la parte real y 4 la parte imaginaria.
+        public void sumar(Complejo b): Suma la parte real con la parte real del número complejo b y la parte imaginaria con la parte imaginaria del número complejo b.
+
+    Crea un proyecto que contenga la clase Complejo en un paquete llamado numeros y pruebe todos sus métodos.
