@@ -1,0 +1,449 @@
+1.- Dados los siguientes identificadores, indicar si son válidos o no. Justificar las respuestas.
+
+    mi variable
+    num_de_cte
+    ____programa
+    $alguna
+    3tema
+    cierto?
+    númerodeCliente
+    jose~
+    año
+    PI
+    int
+
+2.- Dado el siguiente programa, modifícalo para utilizar las variables que se indican. El tipo de dato elegido debe ser el de menos bits posibles que puedan representar el valor. Justifica tu elección.
+
+public class ejerciciovariables {
+
+ public static void main(String[] args) { 
+
+ } 
+
+} 
+
+    Si un empleado está casado o no.
+    Valor máximo no modificable: 999999.
+    Día de la semana
+    Día del año.
+    Sexo: con dos valores posibles 'V' o 'M'
+    Milisegundos transcurridos desde el 01/01/1970 hasta nuestros días.
+    Almacenar el total de una factura
+    Población mundial del planeta tierra.
+
+3.- Realiza las siguientes modificaciones en el programa anterior:
+
+    Añade comentarios, entre otros:
+        Nombre de clase, descripción y autor
+        Comentario para la clase main y para cada una de las llaves de cierre
+
+    Utiliza el operador de asignación para inicializar las variables a los valores que se indican en los mensajes.
+
+    Utiliza la secuencia de escape correspondiente para generar un tabulador al principio de cada línea salvo de la primera
+
+    Mostrar el siguiente resultado:
+
+        Usando sólo la orden println:
+
+        ----- EJERCICIO DE VARIABLES Y TIPOS DE DATOS -----
+        El valor de la variable casado es true
+        El valor de la variable MAXIMO es 999999
+        El valor de la variable diasem es 1
+        El valor de la variable diaanual es 300
+        El valor de la variable miliseg es 1298332800000
+        El valor de la variable totalfactura es 10350.678
+        El valor de la variable poblacion es 6775235741
+        El valor de la variable sexo es M
+
+        Usando sólo la orden print:
+
+        ----- EJERCICIO DE VARIABLES Y TIPOS DE DATOS -----
+        El valor de la variable casado es true
+        El valor de la variable MAXIMO es 999999
+        El valor de la variable diasem es 1
+        El valor de la variable diaanual es 300
+        El valor de la variable miliseg es 1298332800000
+        El valor de la variable totalfactura es 10350.678
+        El valor de la variable poblacion es 6775235741
+        El valor de la variable sexo es M
+
+        Usando sólo la orden printf:
+
+        ----- EJERCICIO DE VARIABLES Y TIPOS DE DATOS -----
+        El valor de la variable casado es true
+        El valor de la variable MAXIMO es 999999
+        El valor de la variable diasem es 1
+        El valor de la variable diaanual es 300
+        El valor de la variable miliseg es 1298332800000
+        El valor de la variable totalfactura es 10350,677734
+        El valor de la variable totalfactura en notación científica es 1.035068E+04
+        El valor de la variable poblacion es 6775235741
+        El valor de la variable sexo es M
+
+4.- Indica los errores presentes en el siguiente código:
+
+/
+
+operadoresaritmeticos.java
+
+Programa que muestra el uso de los operadores aritméticos
+
+/
+
+public class operadoresaritmeticos {
+
+public static main(String[] args) 
+
+short x = 7;
+
+int y = 5;
+
+float f1 = 13.5;
+
+float f2 = 8f;
+
+System.out.println("El valor de x es ", x, " y el valor de y es ", y);
+
+System.out.println("El resultado de x + y es " + (x + y));
+
+System.out.println("El resultado de x - y es " + (x - y));
+
+System.out.printf("\n%s%s\n","División entera:","x / y = ",(x/y));
+
+System.out.println("Resto de la división entera: x % y = " + (x % y));
+
+System.out.printf("El valor de f1 es %f y el de f2 es %f\n",f1,f2);
+
+System.out.println("El resultado de f1 / f2 es " + (f1 / f2))
+
+}
+
+5.- Diseña un programa Java que pida dos números por teclado, determine si el primero es múltiplo del segundo y muestre el resultado.
+
+6.- Diseña un programa Java que cree un tipo enumerado para los meses del año. El programa debe realizar las siguientes operaciones:
+
+    Crear una variable m del tipo enumerado y asignarle el mes de marzo. Mostrar por pantalla su valor.
+    Asignar a la variable m, la cadena de texto "MARZO". Mostrar por pantalla el valor de la variable de tipo enumerado tras realizar la asignación.
+
+7.- Diseña un programa Java para resolver una ecuación de primer grado con una incógnita (x), suponiendo que los coeficientes de la ecuación (C1 y C2) se introducen desde teclado.
+
+C1x + C2 = 0
+
+8.- Diseña un programa Java que calcule la suma, resta, multiplicación y división de dos números introducidos por teclado. Incorpora también las funciones que permitan realizar la potencia de un número y la raíz cuadrada del otro. Salida del programa para x=9, y=3:
+
+Introducir primer numero: 9
+Introducir segundo numero: 3
+x = 9.0 y = 3.0
+x + y = 12.0
+x - y = 6.0
+x * y = 27.0
+x / y = 3.0
+x ^ 2 = 81.0
+√ x = 3.0
+
+9.- Diseña un programa Java que solicite un número de 5 dígitos del teclado, separe el número en sus dígitos individuales y los muestre por pantalla. Por ejemplo, si el número es 53123 que muestre:
+
+5 3 1 2 3
+
+10.- Diseña un programa Java que realice las siguientes operaciones, en el orden que se muestran. Se indica la variable y el tipo de dato que recibe el valor o resultado de la operación indicada:
+
+Tipo_Variable
+	
+
+Variable
+	
+
+Valor / Operación
+
+float
+	
+
+x
+	
+
+4.5
+
+float
+	
+
+y
+	
+
+3.0
+
+int
+	
+
+i
+	
+
+2
+
+int
+	
+
+j
+	
+
+i * x
+
+double
+	
+
+dx
+	
+
+2.0
+
+double
+	
+
+dz
+	
+
+dx * y
+
+byte
+	
+
+bx
+	
+
+5
+
+byte
+	
+
+by
+	
+
+2
+
+byte
+	
+
+bz
+	
+
+bx - by
+
+byte
+	
+
+bx
+	
+
+-128
+
+byte
+	
+
+by
+	
+
+1
+
+byte
+	
+
+bz
+	
+
+bx – by (resultado tipo byte)
+
+byte
+	
+
+bz
+	
+
+bx – by (resultado tipo int)
+
+short
+	
+
+sx
+	
+
+5
+
+short
+	
+
+sy
+	
+
+2
+
+short
+	
+
+sz
+	
+
+sx - sy
+
+short
+	
+
+sx
+	
+
+32767
+
+short
+	
+
+sy
+	
+
+1
+
+short
+	
+
+sz
+	
+
+sx + sy
+
+char
+	
+
+cx
+	
+
+\u000F
+
+char
+	
+
+cy
+	
+
+\u0001
+
+int
+	
+
+z
+	
+
+cx – cy
+
+int
+	
+
+z
+	
+
+cx – 1
+
+char
+	
+
+cx
+	
+
+\uFFFF
+
+int
+	
+
+z
+	
+
+cx
+
+short
+	
+
+sx
+	
+
+cx
+
+short
+	
+
+sx
+	
+
+-32768
+
+char
+	
+
+cx
+	
+
+sx
+
+int
+	
+
+z
+	
+
+sx
+
+short
+	
+
+sx
+	
+
+-1
+
+char
+	
+
+cx
+	
+
+sx
+
+int
+	
+
+z
+	
+
+cx
+
+El resultado del programa debe ser el siguiente:
+
+------- Conversiones entre enteros y coma flotante -------
+
+Producto de int por float: j= i*x = 9
+
+ Producto de float por double: dz=dx * y = 6.0
+
+------- Operaciones con byte -------
+
+ byte: 5 - 2 = 3
+
+ byte -128 - 1 = 127
+
+ (int)(-128 - 1) = -129
+
+------- Operaciones con short -------
+
+short: 10 - 1 = 3
+
+ short 32767 + 1 = -32768
+
+------- Operaciones con char -------
+
+char: - = 14
+
+ char(0x000F) - 1 = 14
+
+ (int)= 65535
+
+ (short)= -1
+
+ -32768 short-char-int = 32768
+
+ -1 short-char-int = 65535
+
