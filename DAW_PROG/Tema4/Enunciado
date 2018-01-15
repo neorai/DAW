@@ -1,0 +1,62 @@
+Sentencias alternativas  
+Ejercicios 
+ 
+1. Escribe un programa que lea un número desde el teclado y que muestre su valor absoluto. Este programa no puede utilizar la 
+función Math.abs(). 
+Ejemplo: 
+  Por favor, introduzca un número: -4 
+  Su valor absoluto es 4 
+2. Escribe un programa que acepte un número entero y en caso de que sea par, muestre un mensaje. En el caso de que sea 
+impar no en necesario mostrar ningún mensaje. 
+Ejemplo: 
+Por favor, introduzca un número entero: 4 
+El número 4 es par 
+3. Escribe un programa que acepte 3 números a b y c, y que muestre el mayor de todos. 
+Ejemplo: 
+  Por favor, introduzca 3 números: 4 2 2 
+  El número mayor es el 4 
+4.  Escribe un programa que acepte 3 números a, b y c, y que muestre el mayor y el menor de todos. 
+Ejemplo: 
+Por favor, introduzca 3 números: 4 2 4 
+El número mayor es el 4 y el menor es el 2 
+5.  Escribe un programa que acepte tres números a, b y v. A continuación, debe mostrar un mensaje confirmando si el tercer 
+número (v) está dentro del intervalo entre a y b. Observe que, en un primer momento, se desconoce si el intervalo es [a, b] o [b, 
+a]. 
+Ejemplo: 
+  Por favor, escribe dos números para establecer el intervalo: 4 2 
+  Por favor, escribe otro número: 4 
+  El número 4 pertenece al intervalo [2, 4] 
+ 
+ 
+  Sentencias iterativas  
+Ejercicios 
+ 
+1. Escribir un programa que lea una secuencia de números enteros que terminan en 0 y muestra la cantidad de números pares 
+que contiene. 
+Ejemplo: 
+Introducir una secuencia de terminado por 0: 
+3 5 14 6 28 7 3 4 0 
+Hay 4 números pares 
+2. Escriba un programa que lea una secuencia de caracteres que terminan con '.' y calcula el número de veces que aparece la 
+letra "A", ya sea en mayúsculas o minúsculas. 
+Ejemplo: 
+Introducir una secuencia de caracteres terminados por '.':  
+a34tueraAa. 
+Hay 4 letras a 
+3. Escribir un programa que lea una secuencia de números enteros que terminan en 0 y muestre el número de veces que un 
+número par aparece en una posición par. 
+Ejemplo: 
+Introducir una secuencia terminada en 0:  
+3 5 14 6 28 7 3 4 1 0 
+Hay 3 números pares en posiciones pares 
+4. Escriba un programa que solicite al usuario un número entero. Después debe solicitar al usuario que introduzca tantos 
+enteros como el número introducido. Cuando el usuario termina de introducir números, el programa debe mostrar el menor 
+número introducido y la posición que ocupa. 
+Ejemplo: 
+Introducir un número: 5 
+Introducir una secuencia de 5 enteros: 3 5 14 6 7 
+El mínimo es 3 y se encuentra en la posición 1 
+5. Escriba un programa que lea un número entero y verifique si es primo. 
+Ejemplo: 
+Introducir un número: 247 
+247 NO es primo 
