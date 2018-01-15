@@ -83,7 +83,7 @@ public class SenAlternativas {
         for (int j = 0; j < numFaltantes; j++) {
             for (int i = 0; i < numFaltantes-j; i++) {
                 if(this.mayorMenor[i] > this.mayorMenor[i+1]){
-                    //oblitario hacer asi la asignacion, hay que tener en cuenta que si se asiga sin depender de "a" se 
+                    //obligatorio hacer asi la asignacion, hay que tener en cuenta que si se asiga sin depender de "a" se 
                     //sobrescribe this.mayorMenor[i] en el segundo paso
                     int a = this.mayorMenor[i+1];
                     this.mayorMenor[i+1] = this.mayorMenor[i];
